@@ -36,8 +36,8 @@ client_ai = OpenAI(api_key=OPENAI_API_KEY)
 # Palabras clave para pedir mapa aleatorio
 RANDOM_KEYWORDS = [
     "aleatorio", "random", "dame un mapa", "elige un mapa", "mapa aleatorio",
-    "dame un mapita", "mapita", "elige mapa", "sorprend", "sorprendeme",
-    "mover el robot", "robot", "payload", "escorta", "escort", "mover"
+    "dame un mapita", "mapita", "elige mapa", "sorprendeme",
+    "mover el robot", "robot", "payload", "escolta", "escort", "mover"
 ]
 
 # Sinónimos / heurística para tipos de mapa (puedes ampliarlo)
@@ -276,4 +276,5 @@ if __name__ == "__main__":
         raise ValueError("Pon tu token de Discord en .env (DISCORD_TOKEN).")
     if not OPENAI_API_KEY:
         raise ValueError("Pon tu API key de OpenAI en .env (OPENAI_API_KEY).")
+
     bot.run(DISCORD_TOKEN)
