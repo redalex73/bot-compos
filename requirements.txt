@@ -1,0 +1,6 @@
+discord.py>=2.2.2
+pandas
+openai
+faiss-cpu
+python-dotenv
+openpyxl
