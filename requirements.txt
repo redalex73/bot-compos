@@ -1,6 +1,7 @@
-discord.py>=2.2.2
-pandas
-openai
-faiss-cpu
+discord.py>=2.3.2
 python-dotenv
+pandas
 openpyxl
+faiss-cpu
+sentence-transformers
+numpy
